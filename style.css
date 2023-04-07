@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;  
+}
+body{
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        #9796F0,#FBC7D4
+    );
+    
+   
+}
+.main-background{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    
+}
+.wrap-transparent{
+
+    position: relative;
+    margin: auto;
+    padding: 30px;
+    width: 550px;
+    border-radius: 30px;
+    height:fit-content;
+    backdrop-filter: blur(10px);
+    background: rgba(238, 225, 225, 0.3);
+}
+
+.heart > i{
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px;
+    
+    color:black;
+    cursor: pointer;
+}
+.heart > i.red{
+    color: #f80441;
+}
+.wrap-transparent .profile-picture .profile-picture-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+}
+.profile-picture{
+    text-align: center;
+}
+
+.name{
+    font-size: 22px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+.developer{
+    font-size: 16px;
+    margin: 0px 15px;
+    font-weight: 500;
+    opacity: .8;
+    letter-spacing: 1.5px;
+
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600 ;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.location-icon{
+    margin-right: 10px;
+}
+
+
+.pp-info{
+    padding: 0px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status-counter{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.followers{
+    margin: 0px 50px;
+}
+
+
+
+
+h1{
+    font-size: 26px;
+    font-weight:700;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+h4{
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.Contact-me{
+    font-weight: 550;
+    padding: 20px 0px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: #712c3d;
+    width: 40%;
+    height: 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 1em;
+}
+
+.icon-facebook-background{
+    width: 50px;    
+}
+.material-symbols-outlined{
+    display: flex;
+    margin: auto;
+    color: black;
+    height: 30px;
+    width: 20px;
+    
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.send-message{
+    height: 35px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(10, 52, 115);
+    color: white;
+}
+.follow-me{
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: crimson;
+    color: white;
+}
